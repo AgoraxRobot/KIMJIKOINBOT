@@ -14,7 +14,7 @@ class Config(object):
     MONGO_DB_URI = "mongodb+srv://zewdatabase:ijoXgdmQ0NCyg9DO@zewgame.urb3i.mongodb.net/ontap?retryWrites=true&w=majority"  # Get ths value from cloud.mongodb.com
 
     # Telegraph link of the image which will be shown at start command.
-    START_IMG = "https://graph.org/file/6ed3863209d0be9c968de.jpg"
+    START_IMG = "https://te.legra.ph/file/c099aa329306ef7df3cf8.jpg"
 
     SUPPORT_CHAT = "agoraworld"  # Your Telegram support group chat username where your users will go and bother you
 
