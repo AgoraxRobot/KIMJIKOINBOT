@@ -105,6 +105,13 @@ buttons = [
         InlineKeyboardButton(text="💋 ᴍʏ ʜᴜʙʙʏ 💋", url=f"https://t.me/MR_AGORA"),
         InlineKeyboardButton(text="👩‍💻 ᴍʏ ᴏғғɪᴄᴇ 👩‍💻", url=f"https://t.me/TEAMAGORA"),
     ],
+    
+    [
+        InlineKeyboardButton(
+            text="👑 ᴏɴʟʏ ғᴏʀ sᴜᴘᴇʀ ɢʀᴏᴜᴘs 👑",
+            url=f"https://t.me/AGORAXROBOT?startgroup=true",
+              ),
+    ],
 ]
 
 HELP_STRINGS = f"""
@@ -211,7 +218,7 @@ def start(update: Update, context: CallbackContext):
         else:
             first_name = update.effective_user.first_name
             update.effective_message.reply_sticker(
-                "CAACAgIAAxkBAAIM9WRrG6z1-W5yFZwITPG8CixorMNpAAJJAANBtVYMYBNDpjyPw4AvBA"
+                "CAACAgUAAx0CbWlwNAADOmRrnLZgVKWXKx82XSu7cbFSHZ4iAAK4CAACeyqpVttt8waLnvHmLwQ"
             )
             update.effective_message.reply_text(
                 PM_START_TEXT.format(escape_markdown(first_name), BOT_NAME),
@@ -406,7 +413,7 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="🏘 ᴍʏ ʜᴏᴍᴇ 🏘", url=f"https://t.me/agoraworkd"
+                            text="🏘 ᴍʏ ʜᴏᴍᴇ 🏘", url=f"https://t.me/agoraworld"
                         ),
                         InlineKeyboardButton(
                             text="👩‍💻 ᴍʏ ᴏғғɪᴄᴇ 👩‍💻", url=f"https://t.me/teamagora"
